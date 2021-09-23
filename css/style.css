@@ -7,6 +7,12 @@ COLOR PALETTE
 #A1C6D7     - light blue
 */
 
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
 /* Global Styles
 --------------------------------------------*/
 body {
