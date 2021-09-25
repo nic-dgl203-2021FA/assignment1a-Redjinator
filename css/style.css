@@ -6,6 +6,7 @@ COLOR PALETTE
 #FFE66D     - yellow
 #A1C6D7     - light blue
 */
+
 :root {
     box-sizing: border-box;
 }
@@ -83,6 +84,19 @@ header {
 }
 .projects .btn:hover {
     background: rgba(47,48,97, 80%);
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed black;
+    padding: 25px 0;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
 }
 
 
