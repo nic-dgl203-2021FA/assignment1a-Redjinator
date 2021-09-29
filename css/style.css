@@ -73,6 +73,14 @@ a:hover {
     padding: 60px 0;
 }
 
+.divider > section {
+    border-bottom: 1px dashed black;
+}
+
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
 /* Profile
 --------------------------------------------*/
 header {
