@@ -1,5 +1,9 @@
 /*
+  Author: Reginald McPherson
+  Date Modified: 29 Sept, 2021
+
 COLOR PALETTE
+------------------------------------
 #F7FFF7     - almost white
 #343434     - dark grey almost black
 #2f3061     - dark blue
@@ -16,16 +20,7 @@ COLOR PALETTE
   box-sizing:inherit;
 }
 
-/* Center flex items both vertically and horizontally */
-/*
-@mixin center-flex-item {
-    justify-content: center;
-    align-items: center;
-}
-.flex-items {
-    @include center-flex-item;
-}
-*/
+
 
 
 /* Global Styles
@@ -51,7 +46,6 @@ h1, h2 {
     font-weight: 400;
     margin: 0;
 }
-
 img {
     width: 300px;
 }
