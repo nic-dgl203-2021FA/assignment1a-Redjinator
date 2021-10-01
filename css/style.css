@@ -116,10 +116,7 @@ header {
     border-bottom: 1px dashed black;
     padding: 25px 0;
 }
-.project-item img{
-    float: left;
-    margin-right: 20px;
-}
+
 .project-item h3 {
     margin-top: 0;
 }
@@ -130,11 +127,7 @@ header {
 .work-experience {
     background: #a1c6d7;
 }
-.job-item {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    column-gap: 20px;
-}
+
 
 
 /* Education
@@ -170,3 +163,16 @@ footer {
     display: inline-block;
 }
 
+/* Responsive
+--------------------------------------------*/
+@media screen and (min-width: 750px) {
+    .project-item img{
+        float: left;
+        margin-right: 20px;
+    }
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+}
