@@ -14,10 +14,18 @@ COLOR PALETTE
 #FFE66D     - yellow
 #A1C6D7     - light blue
 #67595E     - coffee pot
+#335c67     - Teal
 */
+
+
 
 :root {
     box-sizing: border-box;
+    --header-bg-color: #2f3061;
+    --projects-bg-color:#335c67;
+    --experience-bg-color:#A1C6D7;
+    --education-bg-color:#FFFFFF;
+    --footer-bg-color:#343434;
 }
 
 *, *::before, *::after {
@@ -89,7 +97,7 @@ a:hover {
 /* Profile
 --------------------------------------------*/
 header {
-    background: #2f3061;
+    background: var(--header-bg-color);
     color: #F7FFF7;
 }
 
@@ -97,7 +105,7 @@ header {
 /* Projects
 --------------------------------------------*/
 .projects {
-    background: #335c67;
+    background: var(--projects-bg-color);
 }
 .projects a {
     color: #2f3061;
@@ -128,14 +136,16 @@ header {
 /* Work Experience
 --------------------------------------------*/
 .work-experience {
-    background: #a1c6d7;
+    background: var(--experience-bg-color);
 }
 
 
 
 /* Education
 --------------------------------------------*/
+
 .education {
+    background-color: var(--experience-bg-color);
     background-image: url('../images/tire_cropped.jpg');
     background-size: cover;
     background-position: right;
@@ -150,7 +160,7 @@ header {
 /* Contact Info
 --------------------------------------------*/
 footer {
-    background: #343434;
+    background: var(--experience-bg-color);
     color: #F7FFF7;
 }
 .contact-list {
