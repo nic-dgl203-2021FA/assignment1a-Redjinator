@@ -135,6 +135,10 @@ header {
 --------------------------------------------*/
 .work-experience {
     background: var(--experience-bg-color);
+    background-image: url('/images/tire_cropped.png');
+    background-size: cover;
+    background-position: bottom left;
+    padding-bottom: 100px;
 }
 
 
@@ -144,10 +148,7 @@ header {
 
 .education {
     background-color: var(--education-bg-color);
-    background-image: url('../images/tire_cropped.jpg');
-    background-size: cover;
-    background-position: right;
-    padding-bottom:100px ;
+
 }
 
 .education p {
