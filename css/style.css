@@ -19,6 +19,7 @@ COLOR PALETTE
 
 :root {
     box-sizing: border-box;
+    --navbar-bg-color: black;
     --header-bg-color: #665f46;
     --projects-bg-color:#FFFFFF;
     --experience-bg-color:#D9D9D9;
@@ -92,6 +93,11 @@ a:hover {
     border-bottom: none;
 }
 
+/* Navbar
+--------------------------------------------*/
+.navbar {
+    background-color: var(--navbar-bg-color);
+}
 
 /* Profile
 --------------------------------------------*/
