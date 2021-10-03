@@ -98,6 +98,7 @@ I referenced examples on w3schools for the nav bar
 -------------------------------------------------*/
 .navbar {
     background-color: var(--navbar-bg-color);
+    overflow: hidden;
 }
 
 .navbar a {
@@ -107,6 +108,11 @@ I referenced examples on w3schools for the nav bar
     text-decoration: none;
     color: white;
     font-family: 'Quicksand', sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #A39358;
+    color:#2f3061;
 }
 
 /* Profile
