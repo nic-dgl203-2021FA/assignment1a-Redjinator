@@ -115,6 +115,11 @@ I referenced examples on w3schools for the nav bar
     color:#2f3061;
 }
 
+.navbar a.active {
+    background-color: #665f46;
+    color: white;
+}
+
 /* Profile
 --------------------------------------------*/
 header {
