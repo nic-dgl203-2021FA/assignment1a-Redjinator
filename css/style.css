@@ -256,6 +256,7 @@ footer {
 
 }
 
+/* the modal content, mimics the look of a window. */
 .modal_content {
     color: #665f46;
     width: 50%;
@@ -275,10 +276,9 @@ footer {
 }
 
 
-
+/* modal open button in the featured projects section */
 .modal_open {
     display: inline-block;
-    color: blue;
     margin: 0;
     font-weight: bolder;
     text-decoration: none;
@@ -287,13 +287,14 @@ footer {
     border-radius: 1em;
 }
 
+/* modal open button hover state*/
 .modal_open:hover {
     background-color: #A39358;
     color: #665f46;
     box-shadow: 5px 2px 10px #343434;
 }
 
-
+/* Places an "X" in the upper right of the modal that acts like a close window button*/
 .modal_close {
     font-weight: bolder;
     color:#665f46;
@@ -304,16 +305,18 @@ footer {
     right: 1em;
 }
 
-
 .modal_paragraph {
     line-height: 1.5em;
     padding-bottom: 2em;
 }
 
+/* Changes the modal to visible if the modal_container detects that it has been targeted (by the modal_open button) */
 #modal_container:target {
     opacity: 1;
     visibility: visible;
 }
+
+/* Same as above but modifies the .modal_content visibility instead of the modal_container's */
 #modal_container:target .modal_content {
     opacity: 1;
     visibility: visible;
