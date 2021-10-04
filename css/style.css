@@ -258,9 +258,10 @@ footer {
 
 .modal_content {
     color: #665f46;
-    width: 45%;
-    height: 45%;
+    width: 50%;
+    height: 50%;
     background-color: white;
+    overflow: hidden;
 
     position:absolute;
     top: 50%;
@@ -278,12 +279,18 @@ footer {
 .modal_open {
     display: inline-block;
     color: blue;
-    margin: 2em;
+    margin: 0;
     font-weight: bolder;
     text-decoration: none;
     background-color: #665f46;
-    padding: 1em;
-    border-radius: 2em;
+    padding: 1em 2em;
+    border-radius: 1em;
+}
+
+.modal_open:hover {
+    background-color: #A39358;
+    color: #665f46;
+    box-shadow: 5px 2px 10px #343434;
 }
 
 
@@ -296,12 +303,11 @@ footer {
     top: .5em;
     right: 1em;
 }
-.modal_heading {
-    margin-bottom: 1em;
-}
+
 
 .modal_paragraph {
     line-height: 1.5em;
+    padding-bottom: 2em;
 }
 
 #modal_container:target {
