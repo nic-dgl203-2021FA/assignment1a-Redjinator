@@ -251,6 +251,8 @@ footer {
     top: 0;
     left: 0;
     z-index: 10;
+    opacity: 0;
+    visibility: hidden;
 
 }
 
@@ -266,7 +268,25 @@ footer {
     transform: translate(-50%, -50%);
     padding: 2em;
     border-radius: 2em;
+    opacity: 0;
+    visibility: hidden;
 }
+
+.modal_heading {
+    color: red;
+    margin-bottom: 1em;
+}
+
+.modal_paragraph {
+    line-height: 1.5em;
+}
+
+.modal_open {
+    display: inline-block;
+    color: blue;
+    margin: 2em;
+}
+
 
 .modal_close {
     font-weight: bolder;
