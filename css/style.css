@@ -272,14 +272,7 @@ footer {
     visibility: hidden;
 }
 
-.modal_heading {
-    color: red;
-    margin-bottom: 1em;
-}
 
-.modal_paragraph {
-    line-height: 1.5em;
-}
 
 .modal_open {
     display: inline-block;
@@ -296,4 +289,21 @@ footer {
     font-size: 2em;
     top: .5em;
     right: 1em;
+}
+.modal_heading {
+    color: red;
+    margin-bottom: 1em;
+}
+
+.modal_paragraph {
+    line-height: 1.5em;
+}
+#modal_container:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#modal_container:target .modal_content {
+    opacity: 1;
+    visibility: visible;
 }
