@@ -97,6 +97,8 @@ a:hover {
 I referenced examples on w3schools for the nav bar
 -------------------------------------------------*/
 .navbar {
+    display: flex;
+    justify-content: end;
     background-color: var(--navbar-bg-color);
     overflow: hidden;
 }
@@ -115,11 +117,50 @@ I referenced examples on w3schools for the nav bar
     color:#2f3061;
 }
 
-.navbar a.active {
+.navbar a:active {
     background-color: #665f46;
     color: white;
 }
 
+
+/* --------------------------------------------
+    Dropdown menu (Will replace Navbar when completed
+----------------------------------------------- */
+.dropdown {
+    position: fixed;
+    z-index: 9;
+}
+
+.dropdown-hover {
+    display: inline-block;
+    padding: 10px;
+    background-color: #323b40;
+    color: white;
+    border: none;
+}
+.dropdown-hover:hover {
+    background-color: #222;
+}
+
+.dropdown-menu {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background: #323b40;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .3);
+}
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 
 /* Profile
 --------------------------------------------*/
