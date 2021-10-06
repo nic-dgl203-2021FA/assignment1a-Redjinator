@@ -240,17 +240,14 @@ footer {
 
 /* Modal
 ---------------------------------------------*/
-
-/* semi-transparent background that darkens the background area while modal is visible. */
-
-
+/* semi-transparent background that darkens the background area while modal_content is visible. */
 .modal_container {
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, .55);
 
-    /* Fixed postiion allows container to use the viewport and stay with the screen if scrolled, which works for making our content container position absolute as well.
-    
+    /*
+    Fixed postiion allows container to use the viewport and stay with the screen if scrolled, which works for making our content container position absolute as well.
     */
     position: fixed;
     top: 0;
@@ -263,6 +260,11 @@ footer {
 
 /* the modal content, mimics the look of a window. */
 .modal_content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     color: #665f46;
     width: 50%;
     height: 50%;
@@ -279,6 +281,7 @@ footer {
     visibility: hidden;
     /* transition: all .5s; */
 }
+
 
 
 /* modal open button in the featured projects section */
@@ -309,6 +312,7 @@ footer {
     top: .5em;
     right: 1em;
 }
+
 
 .modal_paragraph {
     line-height: 1.5em;
