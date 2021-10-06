@@ -132,11 +132,13 @@ I referenced examples on w3schools for the nav bar
 }
 
 .dropdown-hover {
-    display: inline-block;
+    display: block;
     padding: 10px;
     background-color: #323b40;
-    color: white;
+    color: #A39358;
     border: none;
+    width: 100vw;
+    
 }
 .dropdown-hover:hover {
     background-color: #222;
@@ -146,16 +148,21 @@ I referenced examples on w3schools for the nav bar
     position: absolute;
     display: none;
     top: 100%;
-    left: 0;
-    min-width: 200px;
+    left: 0%;
+    width: 100%;
     background: #323b40;
     box-shadow: 0 3px 2px rgba(0, 0, 0, .3);
 }
 .dropdown-menu a {
     display: block;
+    text-align: center;
     padding: 10px;
     text-decoration: none;
     border: none;
+}
+.dropdown-menu a:hover {
+    background-color: #A39358;
+    color: #343434;
 }
 
 .dropdown:hover .dropdown-menu {
