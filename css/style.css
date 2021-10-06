@@ -260,7 +260,7 @@ footer {
 
 /* the modal content, mimics the look of a window. */
 .modal_content {
-    text-align: center;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -313,10 +313,15 @@ footer {
     right: 1em;
 }
 
-
+.modal_content h2 {
+    max-width: 80%;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
 .modal_paragraph {
+    max-width: 80%;
     line-height: 1.5em;
-    padding-bottom: 2em;
+    padding-bottom: 20px;
 }
 
 /* Changes the modal to visible if the modal_container detects that it has been targeted (by the modal_open button) */
