@@ -120,6 +120,7 @@ I referenced examples on w3schools for the nav bar
     color: white;
 }
 
+
 /* Profile
 --------------------------------------------*/
 header {
@@ -271,10 +272,9 @@ footer {
     background-color: white;
     overflow: hidden;
 
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position:relative;
+    top: 25%;
+    left: 25%;
     padding: 2em;
     border-radius: 2em;
     opacity: 0;
